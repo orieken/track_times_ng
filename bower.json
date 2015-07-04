@@ -1,0 +1,15 @@
+{
+  "name": "track_times_ng",
+  "version": "0.0.1",
+  "authors": [
+    "Oscar Rieken <oriekenjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
