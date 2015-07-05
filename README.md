@@ -13,9 +13,15 @@ playing around with express and angular
 * Bootstrap
 
 
-## docker 
+## Docker
+ 
+### boot2docker if on osx
+  
+  ```
+  boot2docker start
+  ```
 
-* I uses this to build my [image](https://docs.docker.com/examples/nodejs_web_app/)
+* I used this to build my [image](https://docs.docker.com/examples/nodejs_web_app/)
 * docker run -p <port you map>:3000 -d orieken/node-track-times-ng
 * curl -i $(boot2docker ip):<port you map>
 * check ip with boot2docker ip
@@ -30,6 +36,7 @@ docker stop <conatiner hash>
 docker build -t orieken/node-track-times-ng .
 docker run -p <port you map>:3000 -d orieken/node-track-times-ng
 ```
+ 
 
 ### more reading
 
@@ -57,9 +64,9 @@ docker run -p <port you map>:3000 -d orieken/node-track-times-ng
 * set up deployment 
 
 
-### running
- 
- ```
- boot2docker start
- ```
- 
+## Gruntjs
+
+added [Gruntjs](http://gruntjs.com/getting-started) to the project to run things
+
+
+
