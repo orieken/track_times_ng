@@ -23,6 +23,11 @@ playing around with express and angular
 
 * I used this to build my [image](https://docs.docker.com/examples/nodejs_web_app/)
 * docker run -p <port you map>:3000 -d orieken/node-track-times-ng
+
+```
+docker run -p 49169:3000 -d orieken/node-track-times-ng
+```
+
 * curl -i $(boot2docker ip):<port you map>
 * check ip with boot2docker ip
 
